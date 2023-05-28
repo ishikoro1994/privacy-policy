@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.head_section {
+    text-decoration: underline;
+}
+
+/*ウィンドウ幅が767px以上の場合に適用*/
+@media screen and (min-width: 1025px) {
+    /*ヘッダタイトル*/
+    #head_title {
+        font-size: 25px;
+    }
+
+    .head_section {
+        font-size: 20px;
+    }
+
+    .privacy_explanation {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    /*ウィンドウ幅が最大767pxまでの場合に適用 タブレット*/
+    /*ヘッダタイトル*/
+    #head_title {
+        font-size: 25px;
+    }
+
+    .head_section {
+        font-size: 20px;
+    }
+
+    .privacy_explanation {
+        font-size: 16px;
+    }
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用 スマホ*/
+@media screen and (max-width: 599px) {
+    /*ヘッダタイトル*/
+    #head_title {
+        font-size: 18px;
+    }
+
+    .head_section {
+        font-size: 16px;
+    }
+
+    .privacy_explanation {
+        font-size: 14px;
+    }
+}
